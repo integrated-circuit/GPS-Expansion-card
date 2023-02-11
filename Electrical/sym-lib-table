@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Expansion_Card-rescue")(type "Legacy")(uri "${KIPRJMOD}/Electrical-rescue.lib")(options "")(descr ""))
+  (lib (name "Electrical-rescue")(type "Legacy")(uri "${KIPRJMOD}/Electrical-rescue.lib")(options "")(descr ""))
+)
