@@ -20,23 +20,24 @@
 
 - **Clone _pico-sdk_ and _pico-examples_ Git repositories :**
 
-      git clone https://github.com/raspberrypi/pico-sdk.git --branch master
+        git clone https://github.com/raspberrypi/pico-sdk.git --branch master
 
-      cd pico-sdk
+        cd pico-sdk
 
-      git submodule update --init
-      cd ..
+        git submodule update --init
 
-      git clone https://github.com/raspberrypi/pico-examples.git --branch master
+        cd ..
+
+        git clone https://github.com/raspberrypi/pico-examples.git --branch master
 
 - **Get the LoRa Stack:**
 
-      git clone --recurse-submodules https://github.com/sandeepmistry/pico-lorawan.git
+        git clone --recurse-submodules https://github.com/sandeepmistry/pico-lorawan.git
 
-      cd pico_lorawan
+        cd pico_lorawan
 
 - **Install the toolchain :**
 
-      sudo apt update
+        sudo apt update
 
-      sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib
+        sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib
